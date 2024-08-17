@@ -1,1 +1,5 @@
 npm i -D prettier eslint-config-standard eslint-plugin-tailwindcss eslint-config-prettier eslint-plugin-prettier prettier-plugin-tailwindcss
+
+npm i @radix-ui/react-icons
+
+npm i react-hot-toast @tanstack/react-query
