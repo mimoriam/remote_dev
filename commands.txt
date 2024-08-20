@@ -3,3 +3,13 @@ npm i -D prettier eslint-config-standard eslint-plugin-tailwindcss eslint-config
 npm i @radix-ui/react-icons
 
 npm i react-hot-toast @tanstack/react-query
+npm i -D @tanstack/react-query-devtools
+
+https://tanstack.com/query/latest/docs/framework/react/examples/nextjs-app-prefetching
+
+For Client components:
+"use client";
+import { useSearchQuery } from "@/app/lib/hooks";
+
+const { jobItems, isLoading } = useSearchQuery("React");
+console.log(jobItems);
